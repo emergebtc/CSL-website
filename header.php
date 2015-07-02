@@ -12,7 +12,22 @@
 
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/skeleton.css">
-		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/custom.css">
 	</head>
 	<body>
+		<div class="container">
+			<div class="navbar-spacer"></div>
+			<nav class="navbar">
+				<div class="container">
+					<ul class="navbar-list">
+						<li class="navbar-item"><a class="navbar-link" href="index.php">Home</a></li>
+						<li class="navbar-item"><a class="navbar-link" href="#">Tournament Status</a></li>
+						<li class="navbar-item"><a class="navbar-link" href="#">Livestream</a></li>
+						<li class="navbar-item"><a class="navbar-link" href="#">About Us</a></li>
+					</ul>
+					<ul class="navbar-list u-pull-right">
+						<li class="navbar-item"><a class="navbar-link" href="#">Login</a></li>
+					</ul>
+				</div>
+			</nav>
 
